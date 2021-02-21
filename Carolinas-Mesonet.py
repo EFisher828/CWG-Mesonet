@@ -226,6 +226,6 @@ def CWGMesonet():
     newax.axis('off')
     
     fig.text(0.5,0.9,f"Valid {polished}",color='black',size=15,ha='center')
-    plt.savefig("output/CWGMesonet.png",bbox_inches='tight',dpi=200)
+    plt.savefig("output/CWGMesonet.png",bbox_inches='tight',dpi=300)
 
 CWGMesonet()
