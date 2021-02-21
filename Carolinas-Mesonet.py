@@ -186,9 +186,9 @@ def CWGMesonet():
     ax.barbs(lonlist,latlist,u,v, length=6,color='black')
     p = 0
     for b in lonlist:
-        plt.text((lonlist[p])-0.2,(latlist[p])+0.08,datalist[p],color='red',size=9,weight='bold')
+        plt.text((lonlist[p])-0.2,(latlist[p])+0.06,datalist[p],color='red',size=9,weight='bold')
         #print("Temp " + str(p))
-        plt.text((lonlist[p])-0.2,(latlist[p])-0.08,dewlist[p],color='green',size=9,weight='bold')
+        plt.text((lonlist[p])-0.2,(latlist[p])-0.1,dewlist[p],color='green',size=9,weight='bold')
         p = p + 1
     ax.set(xlim=(-84.6, -75.2), ylim=(31.82, 37))
     plt.xlim(-84.6, -75.2)
