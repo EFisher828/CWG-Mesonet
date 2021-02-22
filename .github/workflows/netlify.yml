@@ -9,4 +9,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Call Netlify Build Hook
-        run: curl -X POST -d {} https://api.netlify.com/build_hooks/603289fdb2938baf8a846de
+        run: curl -X POST -d {} https://api.netlify.com/build_hooks/603289fdb2938baf8a846def
